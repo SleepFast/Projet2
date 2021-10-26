@@ -1,0 +1,22 @@
+/** Import fonts **/
+
+/* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/* Tungsten */
+@font-face {
+	font-family: "Tungsten Light";
+	src: url(Tungsten-Light.otf) format("opentype")
+}
+@font-face {
+	font-family: "Tungsten Medium";
+	src: url(Tungsten-Medium.otf) format("opentype")
+}
+@font-face {
+	font-family: "Tungsten Semibold";
+	src: url(Tungsten-Semibold.otf) format("opentype")
+}
+@font-face {
+	font-family: "Tungsten Bold";
+	src: url(Tungsten-Bold.otf) format("opentype")
+}

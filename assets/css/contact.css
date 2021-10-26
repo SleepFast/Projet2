@@ -1,0 +1,125 @@
+/* border des sections */
+.form-select-section {
+	padding: 50px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin: auto 5px;
+}
+
+.modal-header .subtitle {margin: 0}
+
+/* forme image */
+.form-icon {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+/* image particulier */
+.parti{
+	background-image: url(../images/particulier.png);
+	background-size: cover;
+}
+
+/* image collectivité */
+.collec{
+	background-image: url(../images/collectivite.png);
+	background-size: cover;
+}
+
+/* image entreprise */
+.entre{
+	background-image: url(../images/chef-dentreprise.png);
+	background-size: cover;
+}
+
+.form-icon{
+	margin-top: 20px;
+}
+
+label {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	margin-right: -4px;
+	padding: 10px
+}
+
+/* zones de texte */
+input {
+	display: block;
+	width: 100%;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid;
+	transition-duration: 0.2s
+}
+
+textarea {
+	width: 100%;
+	min-height: 200px;
+	margin-top: 15px;
+	outline: none;
+	border: 1px solid;
+	border-radius: 7px;
+	resize: vertical
+}
+
+input, textarea {
+	padding: 5px 10px;
+	border-color: var(--primary)
+}
+
+label.large {width: 100%}
+
+/* Error input */
+label.error input {
+	border-color: var(--error);
+	color: var(--error)
+}
+
+label.error .label-champs {color: var(--error)}
+
+.error-message {
+	color: var(--error);
+	font-size: 12px;
+	transition-duration: 0.2s
+}
+
+/* libéllé des champs */
+.label-champs{
+	display: block;
+	text-align: left !important;
+}
+
+/* encadré des champs */
+fieldset {
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	text-align: left
+}
+
+/* Libellé de l'encadré */
+legend {
+	text-align: left;
+	font-weight: bold;
+	font-size: 18px
+}
+
+/* Modal */
+.modal-dialog{
+	max-width: 700px;
+	max-height: 700px
+}
+
+.confirmation {
+	display: none;
+	margin-bottom: 30px;
+	padding: 10px;
+	border-radius: 7px;
+	background-color: var(--primary);
+	color: #fff
+}

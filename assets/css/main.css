@@ -1,0 +1,45 @@
+/** Main styles **/
+
+/* CSS imports */
+@import url(../fonts/fonts.css);
+@import url(header.css);
+@import url(banner.css);
+@import url(footer.css);
+@import url(texts.css);
+@import url(btn.css);
+@import url(mentions.css);
+
+/* Variables */
+:root {
+	--primary: #a4bd01; /* Lightgreen */
+	--secondary: #427aa1; /* Lightblue */
+	--secondary-variant: #06668c; /* Blue */
+	--tertiary: #ff8800; /* Orange */
+	--error: #ff5f5f /* Red */
+}
+
+/* Text selection color */
+::selection {background-color: rgba(0, 0, 0, 0.1)}
+::-moz-selection {background-color: rgba(0, 0, 0, 0.1)}
+
+body {
+	margin: 0;
+	font-family: Poppins
+}
+div.logoban{
+	margin-left:0;
+	margin-top: 15vh;
+	width: 39vh;
+	height: 15vh;
+	background-image: url(../../favicon.ico);
+	background-size: cover;
+}
+
+.logoban1{
+	margin-top: 30px;
+	color : var(--secondary-variant);
+	line-height: 40px;
+	font-weight: bolder;
+	font-size: 23px;
+	width: 65vh;
+}

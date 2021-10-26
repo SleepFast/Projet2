@@ -1,0 +1,63 @@
+/** Research & development page **/
+
+.soustitre {margin: 100px 0 10px 0}
+
+/* Images */
+
+.img {
+	order: 0;
+	width: 60vh;
+	height: 35vh;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+#img1 {background-image: url(../images/electroniquePuissance.png)}
+#img2 {background-image: url(../images/electroniqueEmbarquee.jpeg)}
+#img3 {background-image: url(../images/BMS.png)}
+#img4 {background-image: url(../images/collectivite.jpeg)}
+#img5 {background-image: url(../images/particulier.jpeg)}
+
+/* Descriptions */
+.im {
+	display: flex;
+	justify-content: center;
+	width: 50vh;
+	min-height: 50vh
+}
+
+/* Lists */
+ul {text-align: left}
+
+.resume {
+	text-align: center;
+	margin-top: 120px;
+	padding-left: 50px;
+	padding-right: 50px
+}
+
+.reveal {
+	opacity: 0;
+	-webkit-transform: translateY(-50px);
+	transform: translateY(-50px)
+}
+
+.reveal-visible {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	transition-duration: 1.8s
+}
+
+/* R&D page media queries */
+
+/* 768px max (Bootstrap md) */
+@media screen and (max-width: 768px) {
+	/* Change image/text order for small screens */
+	.change {order: -1 !important}
+	div.rang {margin-top: 20px}
+	.boxim1 {align-items: center}
+}
