@@ -1,0 +1,33 @@
+/* Solar shades effects */
+
+/* Left container */
+.reveal1 {
+	opacity: 0;
+	-webkit-transform: translateX(-50px);
+	transform: translateX(-50px)
+}
+
+/* Right container */
+.reveal2 {
+	opacity: 0;
+	-webkit-transform: translateX(50px);
+	transform: translateX(50px)
+}
+
+/* Bottom container */
+.reveal3 {
+	opacity: 0;
+	-webkit-ransform: translateY(-50px);
+	transform: translateY(-50px)
+}
+
+/* Parallax on the large image */
+.reveal4 {opacity: 0}
+
+/* Transition on visible elements */
+.reveal-visible {
+	opacity: 1;
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	transition-duration: 1.8s
+}
